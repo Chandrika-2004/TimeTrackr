@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/nice/46_nice.jpg); 
+    background-size: contain;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0 ,0 ,0 ,0.6);
+}
+
+.title{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+}
+
+.col{
+    margin-top: 2px;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    background-color: rgba(255 ,255 ,255 ,0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
