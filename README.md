@@ -4,8 +4,8 @@ TimeTrackr helps you stay on schedule by visually displaying how much time is le
 
 
 🔧 Built With:
-HTML for structure
-CSS for styling (responsive layout)
+HTML for structure, 
+CSS for styling (responsive layout), 
 JavaScript for dynamic countdown logic
 
 
